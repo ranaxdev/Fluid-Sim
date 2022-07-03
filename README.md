@@ -92,6 +92,12 @@ And for the viscosity force kernel `W_viscosity`, we need the second laplacian w
 
 <img src="https://github.com/ranaxdev/Fluid-Sim/blob/main/Res/visc_d.png" alt="Force" style="width:30%;"/>
 
+### Integration Scheme
+
+The velocity and position are updated using the leapfrog integration scheme which is describes by the following equations
+
+<img src="https://github.com/ranaxdev/Fluid-Sim/blob/main/Res/leapfrog.png" alt="Force" style="width:25%;"/>
+
 
 
 ## Installation
